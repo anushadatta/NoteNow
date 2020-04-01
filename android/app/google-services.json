@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "267716882525",
+    "firebase_url": "https://todoapp-1b732.firebaseio.com",
+    "project_id": "todoapp-1b732",
+    "storage_bucket": "todoapp-1b732.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267716882525:android:04bf49214c42bc79f0ddb4",
+        "android_client_info": {
+          "package_name": "com.example.NoteTakingApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267716882525-2stgh6n6n5dqm0f4fa35gtejavt1556o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMHDnha_cu08uDm9KN-5QOcMv1NznO7_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267716882525-2stgh6n6n5dqm0f4fa35gtejavt1556o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
