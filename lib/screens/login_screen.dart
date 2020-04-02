@@ -6,7 +6,7 @@ import 'package:connectivity/connectivity.dart';
 import 'package:intl/intl.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:flushbar/flushbar.dart';
+//import 'package:flushbar/flushbar.dart';
 import 'package:NoteTakingApp/services/login.dart';
 import 'package:NoteTakingApp/services/collections.dart';
 import 'home.dart';
@@ -245,17 +245,17 @@ class _LoginScreenState extends State<LoginScreen> {
   );
 
      void showIncorrectPwFlushbar(BuildContext context) {
-    Flushbar(
-      title: 'Wrong Credentials!',
-      message: 'Passwords dont match! Please try again.',
-      icon: Icon(
-        Icons.info_outline,
-        size: 28,
-        color: Color(0xff2675eb),
-      ),
-      leftBarIndicatorColor: Color(0xff2675eb),
-      duration: Duration(seconds: 3),
-    )..show(context);
+    // Flushbar(
+    //   title: 'Wrong Credentials!',
+    //   message: 'Passwords dont match! Please try again.',
+    //   icon: Icon(
+    //     Icons.info_outline,
+    //     size: 28,
+    //     color: Color(0xff2675eb),
+    //   ),
+    //   leftBarIndicatorColor: Color(0xff2675eb),
+    //   duration: Duration(seconds: 3),
+    // )..show(context);
   }
 
 

@@ -75,18 +75,22 @@ Widget buildHistoryList(apiData) => FutureBuilder<dynamic> (
       );
     }
 
-    return Expanded(
+    return Row(
+      children: <Widget>[
+        Expanded(
 
-      child: ListView.builder(
-        scrollDirection: Axis.vertical,
+          child: ListView.builder(
+            scrollDirection: Axis.vertical,
 
-        itemBuilder: (context, index){
+            itemBuilder: (context, index){
 
-          return TaskCard(t: snapshot.data[index]);
+              return TaskCard(t: snapshot.data[index]);
 
-        },
+            },
 
-        itemCount: snapshot.data.length),
+            itemCount: snapshot.data.length),
+        ),
+      ],
     );
   }
 );

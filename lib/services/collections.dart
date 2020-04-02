@@ -173,7 +173,7 @@ class Collections
         .collection("users")
         .document(userID).collection("Notes").document(t.tid)
       .updateData({
-        'tid': t.title,
+        'tid': t.tid,
           'title': t.title,
           'description': t.description,
           'dateTime': t.dateTime,
@@ -187,7 +187,7 @@ class Collections
         .collection("users")
         .document(userID).collection("History").document(t.tid)
       .updateData({
-        'tid': t.title,
+        'tid': t.tid,
           'title': t.title,
           'description': t.description,
           'dateTime': t.dateTime,
@@ -201,7 +201,7 @@ class Collections
         .collection("users")
         .document(userID).collection("Alarms").document(t.tid)
       .updateData({
-        'tid': t.title,
+        'tid': t.tid,
           'title': t.title,
           'description': t.description,
           'dateTime': t.dateTime,

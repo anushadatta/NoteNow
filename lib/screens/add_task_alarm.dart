@@ -147,7 +147,7 @@ class _AddAlarmState extends State<AddAlarm> {
                             formKey.currentState.save();
                             
                             var t = Task(
-                              tid: _title, 
+                              tid: _depDateTime.toString(), 
                               title: _title, 
                               description: _description, 
                               type: dropdownValue == 'NOTE' ? false : true,

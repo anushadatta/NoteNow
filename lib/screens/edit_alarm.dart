@@ -149,7 +149,7 @@ class _EditAlarmState extends State<EditAlarm> {
                           formKey.currentState.save();
                           
                           var t_edited = Task(
-                            tid: widget.t.title,
+                            tid: widget.t.tid,
                             title: _title, 
                             description: _description, 
                             type: dropdownValue == 'NOTE' ? false : true,

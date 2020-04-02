@@ -98,7 +98,7 @@ class _AddNoteState extends State<AddNote> {
                           formKey.currentState.save();
                           
                           var t = Task(
-                            tid: _title,
+                            tid: _depDateTime.toString(),
                             title: _title, 
                             description: _description, 
                             type: dropdownValue == 'NOTE' ? false : true,

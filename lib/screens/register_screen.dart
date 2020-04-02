@@ -2,7 +2,7 @@ import 'package:NoteTakingApp/services/register.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
-import 'package:flushbar/flushbar.dart';
+//import 'package:flushbar/flushbar.dart';
 
 class RegisterScreen extends StatefulWidget {
   @override
@@ -319,17 +319,17 @@ class _RegisterScreenState extends State<RegisterScreen> {
   }
 
   void showIncorrectPwFlushbar(BuildContext context) {
-    Flushbar(
-      title: 'Wrong Credentials!',
-      message: 'Passwords dont match! Please try again.',
-      icon: Icon(
-        Icons.info_outline,
-        size: 28,
-        color: Color(0xff2675eb),
-      ),
-      leftBarIndicatorColor: Color(0xff2675eb),
-      duration: Duration(seconds: 3),
-    )..show(context);
+    // Flushbar(
+    //   title: 'Wrong Credentials!',
+    //   message: 'Passwords dont match! Please try again.',
+    //   icon: Icon(
+    //     Icons.info_outline,
+    //     size: 28,
+    //     color: Color(0xff2675eb),
+    //   ),
+    //   leftBarIndicatorColor: Color(0xff2675eb),
+    //   duration: Duration(seconds: 3),
+    // )..show(context);
   }
 
 }
